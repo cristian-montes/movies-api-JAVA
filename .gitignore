@@ -33,5 +33,5 @@ build/
 .vscode/
 
 
-# MONOGO DB SETUP
-!**/src/test/**/resources/application.properties
+### ENV File ###
+.env
