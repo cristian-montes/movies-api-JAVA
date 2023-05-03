@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
-@Document(collation = "movies")  // this is that this class represents each document in the movies collection.
+@Document(collection = "movies")  // this is that this class represents each document in the movies collection.
 @Data // takes care all the getters,setters,and to string methods etc.
 @AllArgsConstructor // creates a constructor that takes all the below private fields as an argument.
 @NoArgsConstructor // another constructor that takes no parameters what's so ever.
